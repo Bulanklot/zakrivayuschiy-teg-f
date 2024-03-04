@@ -131,6 +131,10 @@
   gap: 50px;
 }
 
+.card__list__item {
+  align-self: center;
+}
+
 .card {
   background-color: var(--bg-color);
   display: flex;
@@ -402,8 +406,4 @@
 
 .action {
   filter: blur(1px) invert(100%) saturate(4);
-}
-
-.card__list__item {
-  align-self: center;
 }
