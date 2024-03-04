@@ -13,9 +13,12 @@
     --bg-color: #FFFFFF;
     --accent-color: #000000;
     --bg-image:
-      repeating-linear-gradient(90deg,#d3d3d3, transparent 2px),
-      repeating-linear-gradient(#e7e7e7, transparent 2px),
-      linear-gradient(#e7e7e7 0 0.01vh, #1a1a1a);
+      repeating-linear-gradient(to right,#d3d3d3 0 2px, transparent 2px 4px),
+      repeating-linear-gradient(to bottom,#e7e7e7 0 2px, transparent 2px 4px),
+      linear-gradient(to bottom,#e7e7e7 0 0.01vh, #1a1a1a);
+    --button-text-color: #FFFFFF;
+    --contour-color: #000000;
+    --fill-color: red;
 }
 
 :root.theme-dark {
@@ -26,9 +29,12 @@
     --bg-color: #000000;
     --accent-color: #00CC14;
     --bg-image:
-      repeating-linear-gradient(90deg, #000, transparent 2px),
-      repeating-linear-gradient(#000, transparent 2px),
-      linear-gradient(#007f0c, #004306);
+      repeating-linear-gradient(to right, #000 0 2px, transparent 2px 4px),
+      repeating-linear-gradient(to bottom, #000 0 2px, transparent 2px 4px),
+      linear-gradient(to bottom, #007f0c, #004306);
+    --button-text-color: #00CC14;
+    --contour-color: #00CC14;
+    --fill-color: red;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,8 +46,11 @@
     --bg-color: #000000;
     --accent-color: #00CC14;
     --bg-image:
-      repeating-linear-gradient(90deg, #000, transparent 2px),
-      repeating-linear-gradient(#000, transparent 2px),
-      linear-gradient(#007f0c, #004306);
+      repeating-linear-gradient(to right, #000 0 2px, transparent 2px 4px),
+      repeating-linear-gradient(to bottom, #000 0 2px, transparent 2px 4px),
+      linear-gradient(to bottom, #007f0c, #004306);
+    --button-text-color: #00CC14;
+    --contour-color: #00CC14;
+    --fill-color: red;
     }
 }
